@@ -1,0 +1,106 @@
+.div4 {
+  background-color: #FFBBBB;
+
+  /* margin: auto; */
+}
+
+.nav-bar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* padding: 20px; */
+  font-size: large;
+  background-color: aquamarine;
+
+  box-sizing: border-box;
+  box-shadow: 0 5px salmon;
+}
+
+.box-display {
+  /* height: 100vh;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap; 
+     flex-flow:  wrap;
+     */
+  display: flex;
+  flex-flow: row wrap;
+
+
+}
+
+.project {
+  /* height: 35vh;
+    width: 15%;
+    margin:50px;
+    background-color: #555;
+    border-radius: 9px;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+    box-shadow: 2px 2px 2px 2px rgb(48, 45, 45); */
+  height: 200px;
+  width: 250px;
+  margin: 5vh;
+  border: 2px solid rgb(0, 219, 146);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color:black;
+  background-color:magenta;
+}
+
+
+
+
+.button {
+
+  /* width: 10vh;
+    height: 30px;
+    background: #4E9CAF;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(228, 224, 224);
+    font-weight: bold;
+    line-height: 25px;
+    display:flex;
+    box-shadow: 1px 1px 1px 1px #d9e2eb;
+    display:block; */
+  height: 25px;
+  width: 90px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  border-radius: 40px;
+  background-color: rgb(20, 216, 141);
+  box-shadow: 1px 2px 2px 2px rgb(2, 139, 93);
+  /* position: relative; */
+
+  float: right;
+  
+ 
+
+}
+.button:hover{
+  background-color: chartreuse;
+}
+div.project a{
+  text-decoration: none; 
+  font-weight:bolder;
+  font-size: 20px;
+}
